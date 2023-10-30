@@ -58,7 +58,7 @@ jobs:
     - name: Update cname
       run: |
         touch build/CNAME
-        echo 'ismir2023debugprogram.ismir.net' > build/CNAME
+        echo 'ismir2023debug.github.io' > build/CNAME
     - name: Deploy to Github Pages
       uses: peaceiris/actions-gh-pages@v3
       with:
